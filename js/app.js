@@ -7,7 +7,7 @@
             switch (comprar) {
                 case 'Efectivo':
                     let precio = prompt('Ingrese el precio de la compra:');
-                    let descuento = prompt('Ingrese el descuento:');
+                    let descuento = prompt('Ingrese el número del descuento:');
 
                     if (valor = precio * descuento / 100){
                     alert("Se le aplico a su pedido al abonar en efectivo un descuento del " + descuento + "% "  + " por lo tanto el valor de su compra es " + valor + ".");
@@ -37,7 +37,7 @@
                     break;
                     case 'Crédito':
                         let cadvertencia = alert("No hay promociones ni descuentos disponibles abonando con este medio de pago.");
-                        let cnuevatarjeta = prompt('Ingrese nombre de la tarjeta de débito.');
+                        let cnuevatarjeta = prompt('Ingrese nombre de la tarjeta de crédito.');
                         let cnyatarjeta = prompt('Ingrese nombre y apellido.');
                         let cfecdvenctarjeta = prompt('Ingrese fecha de vencimiento.');
                         let ccoddsegtarjeta = prompt('Ingrese código de seguridad.');
